@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: black;
+}
+
+/* ОТСАВИТЬ? */
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* ======== CONTAINER  ======== */
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* ======== HEADER ======== */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+.navbar {
+  color: white;
+  border-bottom: 1px white solid;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.disabled {
+  pointer-events: none;
+  text-decoration: none;
+}
+
+/* ======== INTRO ======== */
+
+.carousel {
+  margin: 0 auto;
+  max-width: 100%;
+  align-self: center;
+  padding-bottom: 50px;
+}
+#two {
+  color: black;
+}
+/* ======== ARTICLES ======== */
+.articles {
+  padding-bottom: 20px;
+}
+.col-sm {
+  padding-bottom: 20px;
+}
+.box {
+  padding: 20px;
+  border: solid 1px white;
+  align-items: center;
+}
+
+.article-photo {
+  width: 100%;
+}
+
+/* === TEXT ARTICLES === */
+
+.article-nav-link {
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.1s linear;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.article-nav-link:hover {
+  opacity: 1;
+}
+.articles-text {
+  font-size: 12px;
+  padding-top: 8px;
+}
+/* ======== FOOTER ======== */
+
+.footer {
+  border-top: 1px solid white;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-block: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+  position: absolute;
+}

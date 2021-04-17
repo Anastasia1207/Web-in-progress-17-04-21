@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: black;
+}
+
+h4 {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+  padding: 20px;
+}
+
+/* ======== CONTAINER  ======== */
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* ======== HEADER ======== */
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+.navbar {
+  color: white;
+  border-bottom: 1px white solid;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+/* ======== BREADCRUMB ======== */
+
+.breadcrumb {
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.previous-page {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ======== ARTICLES ======== */
+
+.main-row-articles {
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+.resize {
+  width: 100px;
+  height: auto;
+  justify-items: center;
+  padding: 0 auto;
+}
+.first {
+  align-items: center;
+  padding-left: 20px;
+}
+.second,
+.third {
+  padding-top: 20px;
+}
+
+/* ======== FOOTER ======== */
+
+.footer {
+  border-top: 1px solid white;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-block: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+  position: absolute;
+}
